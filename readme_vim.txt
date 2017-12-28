@@ -1,13 +1,9 @@
 get vim from here
 https://bintray.com/veegee/generic/vim_x64
+OR https://tuxproject.de/projects/vim/x64/
 
 install py x64
 and ruby x64
-
-
-Edit the file /path/to/your/cmder/vendor/init.bat, search for the PATH variable
-and add to the very beginning the path to the vim we installed. After
-performing the steps, it should look like:
 
 install pathogen to maintain plugins
 replace ~/.vim with ~\vimfiles
@@ -23,6 +19,8 @@ Plugins:
 EasyMotion - Navigation within a file
 Netrw -  Filesystem navigation
 ctrlp - file finder
+Tagbar
+ripgrep-vim
 
 generating tags
 https://www.topbug.net/blog/2012/03/17/generate-ctags-files-for-c-slash-c-plus-plus-source-files-and-all-of-their-included-header-files/
